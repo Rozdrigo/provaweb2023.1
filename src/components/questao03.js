@@ -30,10 +30,9 @@ export const Assincronos = () => {
                 //fazendo a verificação de maior que a media
                 if (a.population > allpopulation / temp.length) {
                     return (
-                        <div>
+                        <tr>
                             {a.capital.join(", ")}
-                            <br></br>
-                        </div>
+                        </tr>
                     )
                 }
             })
@@ -42,8 +41,8 @@ export const Assincronos = () => {
     }
 
     return (
-        <div>
+        <table>
             {render}
-        </div>
+        </table>
     );
 };
