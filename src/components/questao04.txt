@@ -1,0 +1,8 @@
+
+React Hooks é uma API do React que permite que você utilize recursos avançados do React em componentes de função. Existem vários Hooks disponíveis, mas vou mencionar dois exemplos principais: useState() e useEffect().
+
+O useState() permite adicionar um estado local a um componente de função. Ele retorna um par de valores: o estado atual e uma função para atualizá-lo. Por exemplo, você pode criar um contador que incrementa quando um botão é clicado.
+
+O useEffect() é usado para adicionar efeitos colaterais a um componente de função. Isso pode incluir ações como buscar dados de uma API, adicionar ou remover event listeners, entre outros. Por exemplo, você pode buscar dados de uma API quando o componente é montado e atualizar o estado com os dados retornados.
+
+Esses Hooks tornam mais fácil e legível o desenvolvimento de componentes de função no React, aproveitando as funcionalidades do React de maneira mais simples e reutilizável.

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Questao01X } from './components/questao01';
+import { Pokemon } from './components/questao02';
+import { Assincronos } from './components/questao03';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <fieldset>
+        <legend>Questão 01</legend>
+        <Questao01X></Questao01X>
+      </fieldset>
+      <fieldset>
+        <legend>Questão 02</legend>
+        <Pokemon></Pokemon>
+      </fieldset>
+      <fieldset>
+        <legend>Questão 03</legend>
+        <Assincronos></Assincronos>
+      </fieldset>
     </div>
   );
 }
