@@ -18,6 +18,9 @@ function App() {
         <legend>Questão 03</legend>
         <Assincronos></Assincronos>
       </fieldset>
+      <footer>
+        De: Rodrigo Silva Coelho - <a href='https://github.com/jeffersoncarvalho/ufc_2023_1/blob/main/WEB_T01/PROVA-1-D/PRIMEIRA%20AVALIA%C3%87%C3%83O%20PARCIAL%20-%20D.pdf'>Descrição da Prova</a>
+      </footer>
     </div>
   );
 }

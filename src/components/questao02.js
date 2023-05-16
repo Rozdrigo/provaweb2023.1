@@ -3,8 +3,8 @@ import { useState } from "react"
 export const Pokemon = () => {
 
     var urls = [
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png"
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
     ]
 
     const [initial, setInitial] = useState(false);
@@ -25,7 +25,7 @@ export const Pokemon = () => {
         <div>
             <img src={url}></img>
             {/* botão possui referencia da função de modificação de url e altenador de flag */}
-            <button onClick={btnClick}>MUDA IMAGEM</button>
+            <button onClick={btnClick}>MUDAR IMAGEM</button>
         </div>
     )
 }
